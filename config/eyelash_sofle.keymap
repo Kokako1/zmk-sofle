@@ -56,7 +56,7 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8    &kp F9     &kp F10           &trans
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8    &kp F9     &kp F10           &kp BACKSPACE
 &trans      &kp GRAVE        &mkp MB1        &mkp MCLK        &mkp MB2         &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &mkp MB1         &kp UP    &mkp MB2   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &trans          &trans           &trans           &rgb_ug RGB_SAI    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &mkp MB3  &kp F11    &kp F12           &kp RIGHT_SHIFT
