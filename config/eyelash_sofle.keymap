@@ -36,7 +36,12 @@
     };
 
     behaviors {
-    };
+            layer_rgb_toggle: layer_rgb_toggle {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings = <&tog 1>, <&rgb_ug RGB_TOG>;
+            };
+        };         
 
     keymap {
         compatible = "zmk,keymap";
