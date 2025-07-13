@@ -90,3 +90,13 @@
         };
     };
 };
+/ {
+    macros {
+        layer_bl_toggle: layer_bl_toggle {
+            label = "LYR_BL_TOG";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&lt 1 &bl BL_TOG>;
+        };
+    };
+};
