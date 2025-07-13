@@ -58,12 +58,12 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: '-', s: _}
-  - {t: layer1, h: toggle}
+  - '&layer_rgb_toggle'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-option$$
-  - {t: layer1, h: toggle}
+  - '&layer_rgb_toggle'
   - $$mdi:keyboard-esc$$
   layer1:
   - {t: '`', s: '~'}
